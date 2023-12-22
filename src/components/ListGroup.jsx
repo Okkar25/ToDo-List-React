@@ -1,7 +1,7 @@
 import React from "react";
+import BulkAction from "./BulkAction";
 import EmptyStage from "./EmptyStage";
 import List from "./List";
-import BulkActionBtn from "./bulkActionBtn";
 
 const ListGroup = ({
   tasks,
@@ -24,7 +24,7 @@ const ListGroup = ({
           updateTask={updateTask}
         />
       ))}
-      {tasks.length !== 0 && <BulkActionBtn doneAllTask={doneAllTask} />}
+      {tasks.length !== 0 && <BulkAction doneAllTask={doneAllTask} />}
     </div>
   );
 };
