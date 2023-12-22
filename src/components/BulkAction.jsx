@@ -1,6 +1,6 @@
 import React from "react";
 
-const BulkAction = () => {
+const BulkAction = ({doneAllTask}) => {
   return (
     <div className="flex justify-end">
       <button
