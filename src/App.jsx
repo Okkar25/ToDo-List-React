@@ -6,9 +6,9 @@ import Status from "./components/Status";
 
 const App = () => {
   const todoList = [
-    { id: 1, job: "Go to the gym", isDone: false },
-    { id: 2, job: "Buy groceries", isDone: false },
-    { id: 3, job: "Write a blog post", isDone: false },
+    // { id: 1, job: "Go to the gym", isDone: false },
+    // { id: 2, job: "Buy groceries", isDone: false },
+    // { id: 3, job: "Write a blog post", isDone: false },
   ];
 
   const [tasks, setTasks] = useState(todoList);
