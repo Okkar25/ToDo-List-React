@@ -1,0 +1,11 @@
+curl https://mms-todo.netlify.app/img/empty.svg --output src/img/save.svg
+
+images can be directly accessed from public folder 
+
+image export 
+
+import saveSvg from "../img/save.svg";
+src={saveSvg}
+
+https://mms-todo.netlify.app/
+https://mms-invoice.netlify.app/
