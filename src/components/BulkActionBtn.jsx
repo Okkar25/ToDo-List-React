@@ -1,6 +1,6 @@
 import React from "react";
 
-const BulkActionBtn = ({ doneAllTask }) => {
+const bulkActionBtn = ({ doneAllTask }) => {
   return (
     <div className="flex justify-end">
       <button
@@ -13,4 +13,4 @@ const BulkActionBtn = ({ doneAllTask }) => {
   );
 };
 
-export default BulkActionBtn;
+export default bulkActionBtn;
